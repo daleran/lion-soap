@@ -1,18 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="student-roster:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="0de91365-90b0-4fcd-878e-396e95b555b8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../course-mgmt/src/edu/lion/students/CourseManagement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../course-mgmt/src/edu/lion/students/CourseManagementImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../course-mgmt/src/edu/lion/students/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course-mgmt/.idea/artifacts/course_mgmt_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course-mgmt/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/student_roster_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../course-mgmt/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../course-mgmt/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../course-mgmt/src/edu/lion/students/CourseManagementService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../course-mgmt/src/edu/lion/students/CourseManagementServiceImpl.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../course-mgmt/src/edu/lion/students/CourseManagementSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../course-mgmt/src/edu/lion/students/CourseManagementSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../course-mgmt/src/edu/lion/students/CourseStudent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course-mgmt/src/edu/lion/students/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../course-mgmt/src/edu/lion/students/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RosterStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/lion/students/RosterStudent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StudentRosterService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/lion/students/StudentRosterService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/lion/students/RosterStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/lion/students/RosterStudent.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,11 +29,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/lion/students/StudentRosterService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="739">
-              <caret line="58" column="29" selection-start-line="58" selection-start-column="29" selection-end-line="58" selection-end-column="29" />
+            <state relative-caret-position="748">
+              <caret line="44" column="37" selection-start-line="44" selection-start-column="37" selection-end-line="44" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -38,11 +41,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/edu/lion/students/RosterStudent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="688">
-              <caret line="53" column="76" selection-start-line="53" selection-start-column="76" selection-end-line="53" selection-end-column="76" />
+            <state relative-caret-position="456">
+              <caret line="42" column="20" lean-forward="true" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -50,7 +53,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/lion/students/Student.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="501">
+            <state relative-caret-position="224">
               <caret line="166" column="50" selection-start-line="166" selection-start-column="50" selection-end-line="166" selection-end-column="50" />
             </state>
           </provider>
@@ -75,8 +78,8 @@
         <option value="$PROJECT_DIR$/src/RosterStudent.java" />
         <option value="$PROJECT_DIR$/src/edu/lion/students/CourseStudent.java" />
         <option value="$PROJECT_DIR$/src/edu/lion/students/Student.java" />
-        <option value="$PROJECT_DIR$/src/edu/lion/students/RosterStudent.java" />
         <option value="$PROJECT_DIR$/src/edu/lion/students/StudentRosterService.java" />
+        <option value="$PROJECT_DIR$/src/edu/lion/students/RosterStudent.java" />
       </list>
     </option>
   </component>
@@ -121,7 +124,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -171,10 +174,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="2552" y="-8" width="1874" height="1096" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25397456" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3522602" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -184,7 +186,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.32936078" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32917964" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -254,27 +256,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/lion/students/StudentRosterService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="44" column="37" selection-start-line="44" selection-start-column="37" selection-end-line="44" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/lion/students/Student.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="501">
+        <state relative-caret-position="224">
           <caret line="166" column="50" selection-start-line="166" selection-start-column="50" selection-end-line="166" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/lion/students/RosterStudent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="688">
-          <caret line="53" column="76" selection-start-line="53" selection-start-column="76" selection-end-line="53" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/lion/students/StudentRosterService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="739">
-          <caret line="58" column="29" selection-start-line="58" selection-start-column="29" selection-end-line="58" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="456">
+          <caret line="42" column="20" lean-forward="true" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -284,10 +286,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>student-roster:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -295,6 +299,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
+          <last-edited>No facets are configured</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

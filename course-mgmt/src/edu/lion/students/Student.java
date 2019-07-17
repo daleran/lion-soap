@@ -23,12 +23,12 @@ public class Student {
      */
     @Override
     public String toString() {
-        return "Student{" +
-                "StudentID=" + StudentID +
-                ", StudentName='" + StudentName + '\'' +
-                ", StudentSSN='" + StudentSSN + '\'' +
-                ", StudentEmail='" + StudentEmail + '\'' +
-                ", StudentPhone='" + StudentPhone + '\'' +
+        return "Student{" + '\n' +
+                "StudentID=" + StudentID + '\n' +
+                "StudentName='" + StudentName + '\n' +
+                "StudentSSN='" + StudentSSN + '\n' +
+                "StudentEmail='" + StudentEmail + '\n' +
+                "StudentPhone='" + StudentPhone + '\n' +
                 '}';
     }
 }

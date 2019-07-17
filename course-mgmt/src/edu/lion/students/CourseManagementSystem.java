@@ -12,7 +12,9 @@ import javax.xml.ws.Endpoint;
  */
 public class CourseManagementSystem {
     public static void main(String[] args) {
+        String url = "http://localhost:7366/coursemanagement";
+        System.out.println("Providing the Course Management Service on: "+url);
         // Publish the course management service to the local host port 7366 under the /coursemanagement endpoint
-        Endpoint.publish("http://localhost:7366/coursemanagement", new CourseManagementImpl());
+        Endpoint.publish(url, new CourseManagementImpl());
     }
 }

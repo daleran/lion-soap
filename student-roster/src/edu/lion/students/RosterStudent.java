@@ -28,18 +28,18 @@ public class RosterStudent {
      */
     @Override
     public String toString() {
-        return "RosterStudent{" +
-                "stuID=" + stuID +
-                ", name='" + name + '\'' +
-                ", ssn='" + ssn + '\'' +
-                ", emailAddress='" + emailAddress + '\'' +
-                ", homePhone='" + homePhone + '\'' +
-                ", homeAddr='" + homeAddr + '\'' +
-                ", localAddr='" + localAddr + '\'' +
-                ", emergencyContact='" + emergencyContact + '\'' +
-                ", programID=" + programID +
-                ", paymentID='" + paymentID + '\'' +
-                ", academicStatus=" + academicStatus +
+        return "RosterStudent{" + '\n' +
+                "stuID=" + stuID + '\n' +
+                "name='" + name + '\n' +
+                "ssn='" + ssn + '\n' +
+                "emailAddress='" + emailAddress + '\n' +
+                "homePhone='" + homePhone + '\n' +
+                "homeAddr='" + homeAddr + '\n' +
+                "localAddr='" + localAddr + '\n' +
+                "emergencyContact='" + emergencyContact + '\n' +
+                "programID=" + programID +  '\n' +
+                "paymentID='" + paymentID + '\n' +
+                "academicStatus=" + academicStatus + '\n' +
                 '}';
     }
 
