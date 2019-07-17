@@ -1,0 +1,5 @@
+<root>
+    <item name='javax.xml.ws.Endpoint'>
+        <annotation name='java.lang.Deprecated'/>
+    </item>
+</root>
